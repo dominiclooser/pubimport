@@ -1,0 +1,54 @@
+[[package]]
+category = "main"
+description = "Bibtex parser for python 2.7 and 3.3 and newer"
+name = "bibtexparser"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[package.dependencies]
+future = ">=0.16.0"
+pyparsing = ">=2.0.3"
+
+[[package]]
+category = "main"
+description = "Composable command line interface toolkit"
+name = "click"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "7.0"
+
+[[package]]
+category = "main"
+description = "Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API."
+name = "dominate"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.3.5"
+
+[[package]]
+category = "main"
+description = "Clean single-source support for Python 3 and 2"
+name = "future"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "0.17.1"
+
+[[package]]
+category = "main"
+description = "Python parsing module"
+name = "pyparsing"
+optional = false
+python-versions = "*"
+version = "2.3.1"
+
+[metadata]
+content-hash = "44023e6ec9ae1ffd8356eace38bfb5b3db689b1395adea9e6ee4c1e98d77c56d"
+python-versions = "^3.4"
+
+[metadata.hashes]
+bibtexparser = ["df8966ea752db6d74657a69b9d684a61aa33457ad6d9d50e41c50ef7f374907f"]
+click = ["2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13", "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"]
+dominate = ["4076735c0745fe771e57b2313dbb4bfeec42731816ee23cee509f66e8912aa51", "4b9fd42d2824b79761799590697db45bf93daad511b130c50513af38da33df9b"]
+future = ["67045236dcfd6816dc439556d009594abf643e5eb48992e36beac09c2ca659b8"]
+pyparsing = ["66c9268862641abcac4a96ba74506e594c884e3f57690a696d21ad8210ed667a", "f6c5ef0d7480ad048c054c37632c67fca55299990fff127850181659eea33fc3"]
