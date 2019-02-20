@@ -14,6 +14,7 @@ def cli(source_dir, destination):
     container = div(id='publications')
     for source in root.iterdir():
         topic_title = source.name.split('-')[1]
+        topic_title = topic_title.replace('_', ' ')
         topic_section = section()
         topic_section.add(h2(topic_title))
         paper_list = ul()

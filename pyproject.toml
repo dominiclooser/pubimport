@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pubimport"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["Dominic Looser <dominic.looser@gmail.com>"]
 readme = 'README.md'
