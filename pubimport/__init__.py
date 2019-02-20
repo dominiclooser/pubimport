@@ -12,7 +12,7 @@ from dominate.tags import div, section, p, h2, li, h3, ul
 def cli(source_dir, destination):
     root = pathlib.Path(source_dir)
     container = div(id='publications')
-    for source in root.iterdir():
+    for source in sorted(root.glob('*-*')):
         topic_title = source.name.split('-')[1]
         topic_title = topic_title.replace('_', ' ')
         topic_section = section()
